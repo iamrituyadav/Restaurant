@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.RestDiv{
+display: flex;
+width: 800px;
+justify-content: space-between;
+margin: auto;
+padding: 50px
+}
+
+img{
+  width: 350px;
+  height: 200px
+}
+
+.toggleBtn{
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.form>input{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.form>input:last-child{
+  width: 100px;
+}
+.form{
+  text-align: -webkit-center;
+}
+.submitBtn{
+  width: 100px;
+  
+}
